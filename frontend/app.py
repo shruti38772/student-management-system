@@ -256,4 +256,7 @@ with gr.Blocks(title="Student Management System") as app:
 # START GRADIO
 # =========================
 
-app.launch()
+app.launch(
+    server_name="0.0.0.0",
+    server_port=int(os.environ.get("PORT", 7860))
+)
