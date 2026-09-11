@@ -1,7 +1,7 @@
 import gradio as gr
 import requests
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://student-management-system-2-8qus.onrender.com"
 
 
 # -------------------------
